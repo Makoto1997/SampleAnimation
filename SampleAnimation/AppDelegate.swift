@@ -16,7 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController = Animation1ViewController()
+        let storyboard = UIStoryboard(name: "Initial", bundle: nil)
+        let rootViewController = storyboard.instantiateViewController(withIdentifier: "InitialViewController")
+        window?.rootViewController = rootViewController
         return true
     }
 }
