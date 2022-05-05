@@ -17,6 +17,8 @@
 		0E1FAE082822BED8004398E5 /* Animation1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1FAE072822BED8004398E5 /* Animation1.storyboard */; };
 		0E1FAE0A2822BEEC004398E5 /* Animation2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1FAE092822BEEC004398E5 /* Animation2.storyboard */; };
 		0E1FAE0C2822BF05004398E5 /* Animation2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FAE0B2822BF05004398E5 /* Animation2ViewController.swift */; };
+		0E1FAE102823B0A2004398E5 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FAE0F2823B0A2004398E5 /* InitialViewController.swift */; };
+		0E1FAE122823B0B1004398E5 /* Initial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1FAE112823B0B1004398E5 /* Initial.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		0E1FAE072822BED8004398E5 /* Animation1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Animation1.storyboard; sourceTree = "<group>"; };
 		0E1FAE092822BEEC004398E5 /* Animation2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Animation2.storyboard; sourceTree = "<group>"; };
 		0E1FAE0B2822BF05004398E5 /* Animation2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation2ViewController.swift; sourceTree = "<group>"; };
+		0E1FAE0F2823B0A2004398E5 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		0E1FAE112823B0B1004398E5 /* Initial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Initial.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				0E1FADD528228ED1004398E5 /* AppDelegate.swift */,
 				0E1FAE0D2822BF0A004398E5 /* Animation1 */,
 				0E1FAE0E2822BF16004398E5 /* Animation2 */,
+				0E1FAE132823B0B9004398E5 /* Initial */,
 				0E1FADDE28228ED3004398E5 /* Assets.xcassets */,
 				0E1FADE028228ED3004398E5 /* LaunchScreen.storyboard */,
 				0E1FADE328228ED3004398E5 /* Info.plist */,
@@ -144,6 +149,15 @@
 				0E1FAE0B2822BF05004398E5 /* Animation2ViewController.swift */,
 			);
 			path = Animation2;
+			sourceTree = "<group>";
+		};
+		0E1FAE132823B0B9004398E5 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				0E1FAE112823B0B1004398E5 /* Initial.storyboard */,
+				0E1FAE0F2823B0A2004398E5 /* InitialViewController.swift */,
+			);
+			path = Initial;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +267,7 @@
 				0E1FAE082822BED8004398E5 /* Animation1.storyboard in Resources */,
 				0E1FADE228228ED3004398E5 /* LaunchScreen.storyboard in Resources */,
 				0E1FAE0A2822BEEC004398E5 /* Animation2.storyboard in Resources */,
+				0E1FAE122823B0B1004398E5 /* Initial.storyboard in Resources */,
 				0E1FADDF28228ED3004398E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +296,7 @@
 				0E1FAE0C2822BF05004398E5 /* Animation2ViewController.swift in Sources */,
 				0E1FADD628228ED1004398E5 /* AppDelegate.swift in Sources */,
 				0E1FAE062822BEC6004398E5 /* Animation1ViewController.swift in Sources */,
+				0E1FAE102823B0A2004398E5 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
