@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRJ-sv-gwL">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="287"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="124.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Animation1"/>
@@ -30,12 +30,21 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkF-8f-VJA">
-                                        <rect key="frame" x="0.0" y="487" width="414" height="287"/>
+                                        <rect key="frame" x="0.0" y="324.5" width="414" height="125"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Animation2"/>
                                         <connections>
                                             <segue destination="9zl-mM-MQA" kind="show" id="1u3-p3-d5v"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uea-fd-vAE">
+                                        <rect key="frame" x="0.0" y="649.5" width="414" height="124.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="HalfModal"/>
+                                        <connections>
+                                            <segue destination="w6c-tr-EWh" kind="show" id="CZX-QL-A30"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -64,7 +73,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wvt-TZ-XsO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1593" y="108"/>
+            <point key="canvasLocation" x="1588" y="91"/>
         </scene>
         <!--Animation2-->
         <scene sceneID="klW-s9-hzp">
@@ -74,7 +83,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FWD-3g-y3W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1591" y="141"/>
+            <point key="canvasLocation" x="1590" y="124"/>
+        </scene>
+        <!--Base-->
+        <scene sceneID="Xzo-PN-Y8v">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Base" id="w6c-tr-EWh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="yAN-Tu-afj"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SAG-WC-RDu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1561" y="158"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NZ2-Zo-L0f">
